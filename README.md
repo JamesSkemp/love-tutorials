@@ -11,3 +11,22 @@ I've also added a new Run command.
 1. Select **Run** and then **Run...** from the menu.
 2. Enter the command `"C:\Program Files\LOVE\love.exe" "$(CURRENT_DIRECTORY)"` in the prompt and press the **Save...** button.
 	- This is the command I need to run on my 64-bit Windows 10 device.
+
+## Basic LÖVE template.
+
+	-- Basic LOVE game structure:
+
+	-- Load assets.
+	function love.load()
+
+	end
+
+	-- Update, with dt time since last update.
+	function love.update(dt)
+
+	end
+
+	-- Draw to the display.
+	function love.draw()
+
+	end
