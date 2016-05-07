@@ -1,4 +1,4 @@
-# LÖVE Tutorials
+﻿# LÖVE Tutorials
 
 Various tutorials with the [LÖVE framework](https://love2d.org/).
 
@@ -88,4 +88,15 @@ Comments are from the [offical callback functions tutorial](https://love2d.org/w
 	-- This function is called whenever the user clicks the windows close button (often an X). For instance, if the user decides they are done playing, they could click the close button. Then, before it closes, the game can save its state.
 	function love.quit()
 
+	end
+
+## Configuration file
+
+Save as **conf.lua** and add and update settings as needed.
+
+	-- For all settings see https://love2d.org/wiki/Config_Files
+	function love.conf(t)
+		t.window.width = 800
+		t.window.height = 600
+		t.window.title = 'Untitled'
 	end
