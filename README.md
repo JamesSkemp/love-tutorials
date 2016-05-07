@@ -33,6 +33,8 @@ I've also added a new Run command.
 
 ## Full LÖVE template
 
+Comments are from the [offical callback functions tutorial](https://love2d.org/wiki/Tutorial:Callback_Functions).
+
 	-- This function gets called only once, when the game is started, and is usually where you would load resources, initialize variables and set specific settings. All those things can be done anywhere else as well, but doing them here means that they are done once only, saving a lot of system resources.
 	function love.load()
 
