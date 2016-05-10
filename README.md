@@ -2,6 +2,10 @@
 
 Various tutorials with the [LÖVE framework](https://love2d.org/).
 
+Tutorials to follow:
+
+- http://osmstudios.com/tutorials/your-first-love2d-game-in-200-lines-part-1-of-3
+
 ## Personal Development Environment
 
 At this time I'm using [Notepad++ to develop in Lua](https://love2d.org/wiki/Notepad%2B%2B), with the recommended auto-completion plugin.
